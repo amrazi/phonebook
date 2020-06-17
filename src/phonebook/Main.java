@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
         // Load files
-        File dirFile = new File("C:\\Users\\ahmad\\Downloads\\directory.txt");
-        File findFile = new File("C:\\Users\\ahmad\\Downloads\\find.txt");
+        File dirFile = new File("./directory.txt");
+        File findFile = new File("./find.txt");
 
         var dirArr = new ArrayList<String[]>();
         var findArr = new ArrayList<String>();
